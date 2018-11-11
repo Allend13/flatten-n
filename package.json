@@ -1,0 +1,21 @@
+{
+  "name": "flattenn",
+  "version": "1.0.0",
+  "description": "Flatten array of numbers",
+  "main": "flatten.js",
+  "author": "Eugene Allenov",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "testEnvironment": "node",
+    "testRegex": "__tests__/.*\\.test\\.js$"
+  }
+}
